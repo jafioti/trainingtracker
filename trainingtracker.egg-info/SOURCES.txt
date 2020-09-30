@@ -6,4 +6,5 @@ trainingtracker/training_tracker_server.py
 trainingtracker.egg-info/PKG-INFO
 trainingtracker.egg-info/SOURCES.txt
 trainingtracker.egg-info/dependency_links.txt
+trainingtracker.egg-info/requires.txt
 trainingtracker.egg-info/top_level.txt

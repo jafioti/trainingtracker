@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: trainingtracker
-Version: 0.0.1
+Version: 0.2.3
 Summary: A simple remote tracker for model training progress.
 Home-page: https://github.com/trainingtracker/
 Author: Joe Fioti
@@ -8,7 +8,7 @@ Author-email: jafioti@gmail.com
 License: MIT
 Download-URL: https://github.com/Sidekick-AI/SidekickAI/archive/v0.2.3.tar.gz
 Description: UNKNOWN
-Keywords: PyTorch,Tensorflow,ML
+Keywords: PyTorch,NLP,Data
 Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers
