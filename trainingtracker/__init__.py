@@ -41,8 +41,8 @@ class TTServer:
         '''
         # Adjust the internal state
         if tag in self.internal_state.keys():
-            self.internal_state[tag] += [{"y":value[i], "x":step[i]} for i in range(len(values))]
+            self.internal_state[tag] += [{"y":values[i], "x":steps[i]} for i in range(len(values))]
         else:
-            self.internal_state[tag] = [{"y":value[i], "x":step[i]} for i in range(len(values))]
+            self.internal_state[tag] = [{"y":values[i], "x":steps[i]} for i in range(len(values))]
         # Update the server process
         self.queue.put_nowait(self.internal_state)
