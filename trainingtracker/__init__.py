@@ -2,13 +2,13 @@ from trainingtracker import training_tracker_server
 import socket
 # TrainingTracker Main Script
 
-def start_server():
+def start_server(print_ip=True):
     internal_state = {}
 
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     s.connect(("8.8.8.8", 80))
     ip = s.getsockname()[0]
-    print("TrainingTracker IP Address: " + str(ip))
+    if print_ip: print("TrainingTracker IP Address: " + str(ip))
     s.close()
 
     queue = training_tracker_server.start_server()
